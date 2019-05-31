@@ -258,5 +258,6 @@ declare module 'luaparse' {
         onDestroyScope?: Function | null;
         //luaVersion?: '5.1' | '5.2' | '5.3';
         luaVersion?: string;
+        extendedIdentifiers: boolean;
     }
 }

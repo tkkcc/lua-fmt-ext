@@ -17,7 +17,8 @@ export function formatText(text: string, userOptions?: UserOptions) {
         comments: true,
         locations: true,
         ranges: true,
-        luaVersion: '5.3'
+        luaVersion: '5.3',
+        extendedIdentifiers: true,
     });
 
     // Change the chunk range to contain the whole source file so we can attach comments to it

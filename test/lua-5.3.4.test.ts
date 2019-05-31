@@ -12,7 +12,7 @@ function readLuaTest(name: string) {
 
 function parseLua(text: string) {
     return luaparse.parse(text, {
-        luaVersion: '5.3'
+        luaVersion: '5.3',
     });
 }
 

@@ -1,24 +1,24 @@
 {
-  "name": "lua-fmt",
-  "version": "2.6.0",
-  "description": "Format Lua code",
-  "author": "trixnz",
-  "homepage": "https://github.com/trixnz/lua-fmt",
-  "bugs": "https://github.com/trixnz/lua-fmt/issues",
+  "name": "lua-fmt-ext",
+  "version": "3.0.0",
+  "description": "modified lua-fmt with extended identifiers",
+  "author": "tkkcc",
+  "homepage": "https://github.com/tkkcc/lua-fmt-ext",
   "license": "MIT",
   "keywords": [
     "lua",
     "format",
     "lua-fmt",
-    "formatter"
+    "formatter",
+    "lua中文格式化"
   ],
   "repository": {
     "type": "git",
-    "url": "trixnz/lua-fmt"
+    "url": "tkkcc/lua-fmt-ext"
   },
   "main": "dist/src/index.js",
   "bin": {
-    "luafmt": "dist/bin/luafmt.js"
+    "lua-fmt-ext": "dist/bin/luafmt.js"
   },
   "typings": "dist/src/index.js",
   "watch": {
@@ -53,34 +53,32 @@
     ]
   },
   "devDependencies": {
-    "@types/jest": "^19.2.2",
-    "@types/node": "^7.0.8",
-    "gulp": "^3.9.1",
-    "gulp-bump": "^2.7.0",
-    "gulp-git": "^2.1.0",
-    "gulp-shell": "^0.6.1",
-    "gulp-tag-version": "^1.3.0",
-    "gulp-tslint": "^7.1.0",
-    "jest": "^19.0.2",
-    "npm-watch": "^0.1.8",
-    "raw-loader": "^0.5.1",
-    "source-map-support": "^0.4.11",
-    "ts-jest": "^19.0.6",
-    "ts-loader": "^2.0.1",
-    "tslint": "^4.5.1",
-    "typescript": "^2.2.1",
-    "uglify-js": "mishoo/UglifyJS2#harmony",
-    "uglifyjs-webpack-plugin": "^0.3.0",
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.1"
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.4",
+    "gulp": "^4.0.2",
+    "gulp-bump": "^3.1.3",
+    "gulp-git": "^2.9.0",
+    "gulp-shell": "^0.7.0",
+    "gulp-tag-version": "^1.3.1",
+    "gulp-tslint": "^8.1.4",
+    "jest": "^24.8.0",
+    "npm-watch": "^0.6.0",
+    "raw-loader": "^2.0.0",
+    "source-map-support": "^0.5.12",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.2",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.1",
+    "webpack": "^4.32.2",
+    "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
-    "@types/commander": "^2.3.31",
-    "@types/diff": "^3.2.0",
-    "@types/get-stdin": "^5.0.0",
-    "commander": "^2.9.0",
-    "diff": "^3.3.0",
-    "get-stdin": "^5.0.1",
-    "luaparse": "oxyc/luaparse#ac42a00ebf4020b8c9d3219e4b0f84bf7ce6e802"
+    "@types/commander": "^2.12.2",
+    "@types/diff": "^4.0.2",
+    "@types/get-stdin": "^7.0.0",
+    "commander": "^2.20.0",
+    "diff": "^4.0.1",
+    "get-stdin": "^7.0.0",
+    "luaparse": "tkkcc/luaparse#f7b9a728381a8b890c88a7bb553b329aed6ccd3c"
   }
 }
