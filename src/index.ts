@@ -7,7 +7,7 @@ import { buildDocFromAst } from './printer';
 import { printDocToString } from './docPrinter';
 import { UserOptions, defaultOptions } from './options';
 
-import { parse } from 'luaparse';
+import { parse } from '@bilabila/luaparse';
 import { createPatch } from 'diff';
 
 export { UserOptions, defaultOptions, WriteMode } from './options';
@@ -18,7 +18,7 @@ export function formatText(text: string, userOptions?: UserOptions) {
         locations: true,
         ranges: true,
         luaVersion: '5.3',
-        extendedIdentifiers: true,
+        extendedIdentifiers: true
     });
 
     // Change the chunk range to contain the whole source file so we can attach comments to it

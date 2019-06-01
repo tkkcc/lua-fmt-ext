@@ -2,3 +2,4 @@ node_modules
 ide
 test_files/
 dist/
+*.log

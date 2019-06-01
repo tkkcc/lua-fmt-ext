@@ -1,8 +1,8 @@
 {
   "name": "lua-fmt-ext",
-  "version": "3.0.0",
+  "version": "3.0.5",
   "description": "modified lua-fmt with extended identifiers",
-  "author": "tkkcc",
+  "author": "bilabila",
   "homepage": "https://github.com/tkkcc/lua-fmt-ext",
   "license": "MIT",
   "keywords": [
@@ -73,12 +73,10 @@
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
-    "@types/commander": "^2.12.2",
+    "@bilabila/luaparse": "^0.0.2",
     "@types/diff": "^4.0.2",
-    "@types/get-stdin": "^7.0.0",
     "commander": "^2.20.0",
     "diff": "^4.0.1",
-    "get-stdin": "^7.0.0",
-    "luaparse": "tkkcc/luaparse#f7b9a728381a8b890c88a7bb553b329aed6ccd3c"
+    "get-stdin": "^7.0.0"
   }
 }
